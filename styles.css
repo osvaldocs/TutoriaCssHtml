@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "DM Sans-Italic";
+    src: url(./bento-grid-main/assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "DM Sans-Regular";
+    src: url(./bento-grid-main/assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+    font-weight: normal;
+}
+
+.grid-container {
+    font-family: "DM Sans-Regular";
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.section1 {
+    display: grid;
+}
+
+.panfleto1 {
+    background-color: hsl(31, 66%, 93%);
+    
+}
+
+.panfleto1 span {
+color: hsl(256, 67%, 59%);
+font-family: "DM Sans-Italic";
+}
+
+.panfleto2 {
+    background-color: hsl(39, 100%, 71%);
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+
+.tarjeta1 {
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+     background-color: hsl(256, 67%, 59%);
+}
+
+.tarjeta1 span {
+    color: hsl(39, 100%, 71%);
+}
+
+.tarjeta2 {
+    background-color: hsl(254, 88%, 90%);
+}
+
+.tarjeta4 {
+    background-color: hsl(39, 100%, 71%);
+}
+.tarjeta5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.tarjeta6 {
+    color: white;
+    background-color: hsl(256, 67%, 59%);
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
