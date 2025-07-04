@@ -13,9 +13,9 @@ Recrear una **estructura de diseño tipo "Bento Grid"** basada en una interfaz m
 - Buenas prácticas de organización HTML y separación de estilos con CSS.
 
 ## 🖼️ Vista previa
-### 📌 Captura en escritorio
 
-![Captura escritorio](https://raw.githubusercontent.com/osvaldocs/TutoriaCssHtml/main/tutoriaPablo/bento-grid-main/assets/images/captura-escritorio.png)
+[📸 Ver captura escritorio](https://raw.githubusercontent.com/osvaldocs/TutoriaCssHtml/main/tutoriaPablo/bento-grid-main/assets/images/captura-escritorio.png)
+
 
 
 
