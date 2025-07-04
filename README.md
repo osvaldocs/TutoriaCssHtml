@@ -18,10 +18,8 @@ Recrear una **estructura de diseño tipo "Bento Grid"** basada en una interfaz m
 
 
 
+[📱 Ver captura responsive](https://raw.githubusercontent.com/osvaldocs/TutoriaCssHtml/main/tutoriaPablo/bento-grid-main/assets/images/captura-responsive.png)
 
-### 📱 Captura en modo responsive
-
-![Captura responsive](https://github.com/osvaldocs/TutoriaCssHtml/raw/main/tutoriaPablo/bento-grid-main/assets/images/captura-responsive.png)
 
 
 
