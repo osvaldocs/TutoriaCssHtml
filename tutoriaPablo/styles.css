@@ -33,7 +33,8 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 2rem;
-    margin: 5rem 8rem;
+    margin: 5rem auto;
+    max-width: 1440px;
 }
 
 img {
@@ -65,6 +66,8 @@ h2, h3, h4 {
 
 .panfleto1 {
     background-color: hsl(31, 66%, 93%);
+    gap: 3rem;
+    justify-content: center;
 }
 
 .panfleto1 span {
@@ -74,7 +77,17 @@ h2, h3, h4 {
 
 .panfleto2 {
     background-color: hsl(39, 100%, 71%);
+    justify-content: space-around;
+    align-items: center;
 }
+
+.panfleto2 img {
+    width: 90%;
+    height: auto;
+    max-height: 300px;
+}
+
+
 
 .section2 {
     display: grid;
@@ -124,12 +137,40 @@ h2, h3, h4 {
 .tarjeta3 {
     background-color: white;
     aspect-ratio: 1 / 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.tarjeta3 h3 {
+    font-size: 2rem;
+}
+
+.tarjeta3 img {
+    position: relative;
+    left: 50px;
+    max-height: 300px;
+    max-width: 200%;
+    height: 250px;
+    width: auto;
 }
 
 .tarjeta4 {
+    justify-content: start;
     background-color: hsl(39, 100%, 71%);
     aspect-ratio: 1 / 1;
+    position: relative;
+    overflow: hidden;
 }
+
+.tarjeta4 h3 {
+    font-size: 2rem;
+}
+
+.tarjeta4 img {
+    position: relative;
+    top: 50px;
+}
+
 .tarjeta5 {
     display: flex;
     align-items: flex-start;
@@ -141,8 +182,51 @@ h2, h3, h4 {
 
 
 .tarjeta6 {
+    display: flex;
     color: white;
     background-color: hsl(256, 67%, 59%);
     grid-column: span 2;
     overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem; 
 }
+
+.tarjeta6 img {
+    max-height: 250px;
+}
+
+.tarjeta6 h2 {
+    font-size: 3rem;
+}
+
+
+@media (max-width: 1050px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarjeta2 img {
+        align-self: center;
+        padding: 0;
+        object-fit: fill;
+        height: auto;
+    }
+
+    .tarjeta6 {
+        flex-direction: column;
+    }
+
+    .tarjeta6 h2 {
+        font-size: 2rem;
+    }
+
+}
+
