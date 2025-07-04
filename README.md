@@ -18,7 +18,7 @@ Recrear una **estructura de diseño tipo "Bento Grid"** basada en una interfaz m
 ![Captura escritorio] (https://github.com/osvaldocs/TutoriaCssHtml/blob/main/tutoriaPablo/bento-grid-main/assets/images/captura-escritorio.png)
 ### 📱 Captura en modo responsive
 
-![Captura responsive](./bento-grid-main/assets/images/captura-responsive.png)
+![Captura responsive](https://github.com/osvaldocs/TutoriaCssHtml/blob/main/tutoriaPablo/bento-grid-main/assets/images/captura-responsive.png)
 
 
 ## 📁 Estructura del proyecto
