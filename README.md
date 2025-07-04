@@ -13,27 +13,25 @@ Recrear una **estructura de diseño tipo "Bento Grid"** basada en una interfaz m
 - Buenas prácticas de organización HTML y separación de estilos con CSS.
 
 ## 🖼️ Vista previa
-
 ### 📌 Captura en escritorio
 
-![Captura escritorio](./assets/captura-escritorio.png)
+![Captura escritorio](./bento-grid-main/assets/images/captura-escritorio.png)
 
 ### 📱 Captura en modo responsive
 
-![Captura responsive](./assets/captura-responsive.png)
+![Captura responsive](./bento-grid-main/assets/images/captura-responsive.png)
 
 
 ## 📁 Estructura del proyecto
 
-bento-grid/
-│
-├── index.html # Estructura principal
-├── styles.css # Estilos en CSS con grid/flexbox
-├── README.md # Este archivo
+TutoriaCssHtml/
+└── tutoriaPablo/
 └── bento-grid-main/
-└── assets/
-├── images/ # Ilustraciones del grid
-└── fonts/ # Fuentes DM Sans
+├── assets/
+│ ├── images/ # Ilustraciones del grid y capturas de pantalla
+│ └── fonts/ # Fuentes DM Sans
+├── index.html # Estructura principal
+└── styles.css # Estilos en CSS con grid/flexbox
 
 
 ## 🧪 Contenidos destacados
